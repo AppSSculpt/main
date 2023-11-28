@@ -9115,9 +9115,9 @@ input[type=range]::-ms-thumb {
   background-color: rgba(165, 160, 160, 0.8);
 }
 #qrcode {
-  max-height: 122px;
-  width: auto;
-  height: auto;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
 }
 #logo {
   max-width: 80%;
