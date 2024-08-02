@@ -9161,12 +9161,19 @@ a:hover {
       padding: 15px;
   }
 
-  #codigo, #material {
+  #codigo, #material, #total {
       text-align: center;
   }
 }
 
 #codigo {
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  margin: 0;
+}
+#total {
   font-size: 12px;
   font-weight: bolder;
   color: rgb(0, 0, 0);
