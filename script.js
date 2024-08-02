@@ -17,6 +17,11 @@ function displayCodigo(codigoValue) {
     document.getElementById("codigo").textContent = "Código: " + codigoValue;
 }
 
+function displaytotal(totalValue) {
+    document.getElementById("total").textContent = "Total: " + totalValue;
+}
+
+
 
 function createCustomImageAndDownload() {
     
@@ -48,10 +53,13 @@ var urlParams = new URLSearchParams(window.location.search);
 var qrCodeValue = urlParams.get("qr_code");
 var materialValue = urlParams.get("material");
 var codigoValue = urlParams.get("qr_code");
+var totalValue = urlParams.get("total");
 
 createQRCode(qrCodeValue);
 displayMaterial(materialValue);
 displayCodigo(codigoValue);
+displayTotal(totaloValue);
+
 
 
 window.addEventListener("scroll", function() {
