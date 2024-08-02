@@ -58,7 +58,7 @@ var totalValue = urlParams.get("total");
 createQRCode(qrCodeValue);
 displayMaterial(materialValue);
 displayCodigo(codigoValue);
-displayTotal(totaloValue);
+displayTotal(totalValue);
 
 
 
