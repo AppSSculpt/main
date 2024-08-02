@@ -17,7 +17,7 @@ function displayCodigo(codigoValue) {
     document.getElementById("codigo").textContent = "Código: " + codigoValue;
 }
 
-function displaytotal(totalValue) {
+function displayTotal(totalValue) {
     document.getElementById("total").textContent = "Total: " + totalValue;
 }
 
