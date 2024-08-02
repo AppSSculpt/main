@@ -125,6 +125,7 @@ h1 {
     transition: top 0.3s;
 }
 
+/* Estilo para telas pequenas */
 @media screen and (max-width: 768px) {
     h1 {
         padding: 10px;
@@ -139,10 +140,11 @@ a:hover {
 #material {
     font-weight: bolder;
     padding: 5px;
-    color: rgb(3, 3, 3);
+    color: rgb(3, 3, 3); /* Cor preta para material */
     margin: 0;
 }
 
+/* Estilo para telas pequenas */
 @media screen and (max-width: 768px) {
     #qrcode-container {
         display: flex;
@@ -152,24 +154,24 @@ a:hover {
         padding: 15px;
     }
 
-    
     #total,
     #codigo,
     #material {
         font-size: 14px;
         text-align: center;
+        color: rgb(0, 0, 0); /* Cor preta para total, codigo e material */
     }
 }
 
 #codigo {
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /* Cor preta para codigo */
     padding: 3px;
     margin: 0;
 }
 #total {
     font-weight: bolder;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /* Cor preta para total */
     padding: 3px;
     margin: 0;
 }
