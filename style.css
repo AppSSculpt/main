@@ -152,6 +152,8 @@ a:hover {
         padding: 15px;
     }
 
+    
+    #total,
     #codigo,
     #material {
         font-size: 14px;
@@ -160,6 +162,12 @@ a:hover {
 }
 
 #codigo {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    margin: 0;
+}
+#total {
     font-weight: bolder;
     color: rgb(0, 0, 0);
     padding: 3px;
